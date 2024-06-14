@@ -1,0 +1,36 @@
+/* FONTS */
+@font-face {
+  font-family: 'iA Writer Mono S';
+  src: url("../fonts/iAWriterMonoS-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'iA Writer Mono S';
+  src: url("../fonts/iAWriterMonoS-Bold.ttf");
+  font-weight: bold;
+}
+
+$base-font-size: 1em;
+
+:root {
+  --main-color: black;
+  --bg-color: white;
+
+  --text-color: black;
+  --pop-color: black;
+  --alt-color: #cb2020;
+  --light-alt-color: rgb(213, 46, 46);
+}
+
+@import 'monia/syntax-highlighting.scss',
+        'monia/base',
+        'monia/layout',
+        'monia/lists',
+        'monia/navigation',
+        'monia/error';
+
+
+/* SMALL FONT OVERRIDE */
+body.large { line-height: 2em; font-size: $base-font-size; }
+

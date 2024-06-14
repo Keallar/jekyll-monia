@@ -1,0 +1,52 @@
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+p {
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
+footer {
+  color: var(--text-color);
+  margin: 20px auto 15px;
+  text-align: right;
+}
+
+header {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+header p {
+  text-align: left;
+  margin: 0;
+}
+
+footer {
+  margin-bottom: 20px;
+}
+
+img.home_header {
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+img.detail_header {
+  width: 100%;
+}
+
+.post {
+  border-bottom: dashed 1px rgba(37, 37, 37, 0.9);
+
+  &-title {
+
+  }
+
+  &-description {
+
+  }
+}

@@ -1,0 +1,15 @@
+{%- assign page_paths = site.header_pages | default: default_paths -%}
+
+<header>
+    <div class="menu">
+        <a href="{{ '/' | relative_url}}"><div class="page_title">{{ site.title }}<b class="blinking_cursor">_</b></div></a>
+        <ul>
+            {%- for path in page_paths -%}
+                {%- assign my_page = site.pages | where: "path", path | first -%}
+                    {%- if my_page.title and my_page.permalink_name != '/home' -%}
+                        <li><a href="{{ my_page.url | relative_url }}">/{{ my_page.permalink_name | replace: " ", "-" | replace: "/", "" | my_page.permalink | replace: "/", "" | ERROR }}</a></li>
+                    {%- endif -%}
+            {%- endfor -%}
+        </ul>
+    </div>
+</header>

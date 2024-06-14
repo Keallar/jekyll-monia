@@ -1,0 +1,52 @@
+body {
+  background-color: var(--bg-color);
+  color: var(--main-color);
+  font-family: 'iA Writer Mono S';
+  margin: 0 auto;
+  width: 90%;
+  max-width: 700px;
+  line-height: 2em;
+  font-size: 0.9em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 22px 0 0;
+  font-weight: bold;
+  color: var(--pop-color);
+  font-size: $base-font-size;
+}
+
+p, ul, ol {
+  font-size: $base-font-size;
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: underline;
+  color: var(--alt-color);
+}
+
+a:hover {
+  color: var(--bg-color);
+  background-color: var(--alt-color);
+}
+
+.primary-text {
+  color: var(--main-color);
+}
+
+@media only screen and (max-device-width: 500px) {
+  * {
+    font-size: 12px !important;
+  }
+}
+
+b, strong {
+  color: var(--main-color);
+}
+
+.invert {
+  color: var(--bg-color);
+  background-color: var(--main-color);
+  padding: 1px 3px;
+}

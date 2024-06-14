@@ -1,0 +1,56 @@
+.menu {
+  border-top: dashed 1px rgba(37, 37, 37, 0.9);
+  border-bottom: dashed 1px rgba(37, 37, 37, 0.9);
+  margin-bottom: 25px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu .blinking_cursor {
+  animation: blinker 1s none infinite;
+  font-size: $base-font-size * 1.25;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.menu a {
+  background-color: transparent;
+}
+
+.menu ul {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding-left: 0;
+  list-style-type: none;
+  text-align: right;
+}
+
+.menu ul li {
+  display: inline;
+  margin-left: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.menu ul li a:hover {
+  text-decoration: none;
+  color: var(--bg-color);
+  background-color: var(--main-color);
+}
+
+.menu .page_title {
+  text-align: left;
+  margin-left: 10px;
+  float: left;
+  font-weight: bold;
+  color: var(--main-color)
+}
