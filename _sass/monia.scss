@@ -11,7 +11,7 @@
   font-weight: bold;
 }
 
-$base-font-size: 1em;
+$base-font-size: 1.03em;
 
 :root {
   --main-color: black;
@@ -29,8 +29,3 @@ $base-font-size: 1em;
         'monia/lists',
         'monia/navigation',
         'monia/error';
-
-
-/* SMALL FONT OVERRIDE */
-body.large { line-height: 2em; font-size: $base-font-size; }
-

@@ -10,7 +10,7 @@
 
 .menu .blinking_cursor {
   animation: blinker 1s none infinite;
-  font-size: $base-font-size * 1.25;
+  font-size: $base-font-size;
 }
 
 @keyframes blinker {
@@ -52,5 +52,6 @@
   margin-left: 10px;
   float: left;
   font-weight: bold;
-  color: var(--main-color)
+  color: var(--main-color);
+  font-size: $base-font-size;
 }

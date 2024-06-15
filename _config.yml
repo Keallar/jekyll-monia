@@ -1,9 +1,9 @@
 title: monia
-author: keallar
+author: Keallar
 email: zlysanskiy@gmail.com
 tagline: "A jekyll theme that use iA Writer Mono font and shell view"
 description: "This is a preview of Monia"
-github_username: keallar
+github_username: Keallar
 baseurl: "/monia"
 #url: "https://tareqdandachi.github.io"
 
@@ -16,12 +16,11 @@ plugins:
 sass:
   style: compressed
 
+theme: jekyll-monia
+
 highlighter: rouge
 
 header_pages:
   - index.md
   - read-me.md
   - preview.md
-
-# set the size of the text to 'large' or 'small', default is small
-font-size: small
