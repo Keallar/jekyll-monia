@@ -43,10 +43,10 @@ img.detail_header {
   border-bottom: dashed 1px rgba(37, 37, 37, 0.9);
 
   &-title {
-
+    font-size: $base-font-size * 1.3;
   }
 
-  &-description {
-
+  &-date {
+    color: lighten(black, 35%);
   }
 }

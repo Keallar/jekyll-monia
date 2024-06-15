@@ -5,6 +5,13 @@ layout: default
 <div class="post">
     <h1 class="post-title">{{ page.title }}</h1>
 
+    <div class="post-date">
+        Published on {{ page.date | date_to_string }}
+        {% if page.author != null %}
+        by {{ page.author }}
+        {% endif %}
+    </div>
+
     <div class="post-description">
         {{ page.description }}
     </div>
