@@ -4,23 +4,26 @@ email: zlysanskiy@gmail.com
 tagline: "A jekyll theme that use iA Writer Mono font and shell view"
 description: "This is a preview of Monia"
 github_username: Keallar
-baseurl: "/monia"
-#url: "https://tareqdandachi.github.io"
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
   - jemoji
+  - jekyll-paginate
 
 sass:
   style: compressed
 
 theme: jekyll-monia
 
+# highlight code
 highlighter: rouge
 
+# pagination
+paginate: 2
+paginate_path: "/blog/page:num/"
+
 header_pages:
-  - index.md
   - read-me.md
   - preview.md

@@ -5,7 +5,7 @@ layout: default
 <h2>Articles</h2>
 <div>
     <ul>
-        {% for post in site.posts %}
+        {% for post in paginator.posts %}
         <li>
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             {{ post.date | date: "%b %-d, %Y" }}
@@ -13,4 +13,8 @@ layout: default
         </li>
         {% endfor %}
     </ul>
+
+    {% if site.paginate %}
+        {% include pagination.html %}
+    {%- endif -%}
 </div>

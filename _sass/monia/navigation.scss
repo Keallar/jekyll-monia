@@ -55,3 +55,8 @@
   color: var(--main-color);
   font-size: $base-font-size;
 }
+
+.menu .page_title:hover {
+  text-decoration: underline;
+}
+
