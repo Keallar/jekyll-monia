@@ -9,8 +9,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
-  - jemoji
   - jekyll-paginate
+  - jemoji
 
 sass:
   style: compressed
@@ -21,7 +21,7 @@ theme: jekyll-monia
 highlighter: rouge
 
 # pagination
-paginate: 2
+paginate: 1
 paginate_path: "/blog/page:num/"
 
 header_pages:

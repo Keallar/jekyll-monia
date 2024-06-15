@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Keallar"]
   spec.email         = ["zlysanskiy@gmail.com"]
 
-  spec.summary       = "Write a short summary, because Rubygems requires one."
+  spec.summary       = "A jekyll theme that use iA Writer Mono font and shell view"
   spec.homepage      = "https://github.com/Keallar/jekyll-monia"
   spec.license       = "MIT"
 
