@@ -1,0 +1,16 @@
+.icon {
+  font-size: 30px;
+}
+
+.icon:hover {
+  color: var(--alt-color) !important;
+}
+
+footer > a {
+  color: black;
+}
+
+footer > a:hover {
+  color: black;
+  background-color: white;
+}

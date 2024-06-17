@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-monia"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["Keallar"]
   spec.email         = ["zlysanskiy@gmail.com"]
 
@@ -16,6 +16,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.4"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.1"
   spec.add_runtime_dependency "jekyll-feed", "~> 0.16"
-  spec.add_runtime_dependency "jemoji", "~> 0.11"
   spec.add_runtime_dependency "jekyll-paginate"
 end

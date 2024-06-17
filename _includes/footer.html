@@ -1,5 +1,7 @@
 <!-- footer -->
 
 <footer>
-    {% if site.github_username and site.github_username != "" %} :octocat:<a href="https://github.com/{{site.github_username}}">@{{ site.github_username }}</a> {% endif %}
+    {% for link in site.social_links %}
+        <a class="icon" href="{{ link.url }}"{% if link.rel %} rel="{{ link.rel }}"{% endif %}><i class="fa fa-{{ link.icon }}"></i></a>
+    {% endfor %}
 </footer>
