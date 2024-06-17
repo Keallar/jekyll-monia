@@ -4,6 +4,8 @@ email: zlysanskiy@gmail.com
 tagline: "A jekyll theme that use iA Writer Mono font and shell view"
 description: "This is a preview of Monia"
 github_username: Keallar
+baseurl: '/jekyll-monia'
+url: 'https://keallar.github.io'
 
 plugins:
   - jekyll-sitemap
@@ -14,8 +16,6 @@ plugins:
 
 sass:
   style: compressed
-
-theme: jekyll-monia
 
 # highlight code
 highlighter: rouge
