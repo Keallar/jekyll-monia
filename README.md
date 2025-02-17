@@ -1,10 +1,6 @@
 # jekyll-monia
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
-
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
-
-TODO: Delete this and the text above, and describe your gem
+A jekyll theme inspired by [jekyll-theme-console](https://github.com/b2a3e8/jekyll-theme-console) and using the iA Writer Mono S font.
 
 ## Installation
 
@@ -22,15 +18,39 @@ theme: jekyll-monia
 
 And then execute:
 
-    $ bundle
+```bash
+bundle
+```
 
 Or install it yourself as:
 
-    $ gem install jekyll-monia
+```bash
+gem install jekyll-monia
+```
+
+Or you can use it as a remote theme (only for GitHub pages). Set `remote_theme` in your project's Jekyll `_config.yml` file:
+```yaml
+remote_theme: Keallar/jekyll-monia
+```
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+### _config.yml
+In addition to jekyll's default configuration options, you can provide:
+ - `header_pages` to specify which pages should be displayed in navbar
+ - `social_links` to specify social links icons. Available: twitter, github, telegram and others. More icons look at [fontawesome.com](https://fontawesome.com/v4/icons/)
+
+```yaml
+header_pages:
+  - read-me.md
+  - preview.md
+
+social_links:
+  - url: https://twitter.com/EugeneLys
+    icon: twitter-square
+  - url: https://github.com/Keallar
+    icon: github-square
+```
 
 ## Contributing
 
